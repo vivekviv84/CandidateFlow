@@ -1,7 +1,7 @@
 # Candidate Flow
 
 **Explainable multi-source candidate data transformation engine.**  
-Eightfold Engineering Intern Assignment — Vivek Kumar Dubey · vivekviv84@gmail.com
+— Vivek Kumar Dubey · vivekviv84@gmail.com
 
 ---
 
