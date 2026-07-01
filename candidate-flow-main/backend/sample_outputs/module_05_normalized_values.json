@@ -1,0 +1,87 @@
+{
+  "emails": [
+    {
+      "original_value": " ADA@EXAMPLE.COM ",
+      "normalized_value": "ada@example.com",
+      "is_normalized": true,
+      "metadata": {
+        "normalizer": "email",
+        "method": "trim_and_lowercase",
+        "steps": ["trimmed whitespace", "lowercased"],
+        "warnings": []
+      }
+    }
+  ],
+  "phones": [
+    {
+      "original_value": " (415) 555-2671 ",
+      "normalized_value": "+14155552671",
+      "is_normalized": true,
+      "metadata": {
+        "normalizer": "phone",
+        "method": "phonenumbers_e164",
+        "steps": ["trimmed whitespace", "converted to E.164"],
+        "warnings": []
+      }
+    }
+  ],
+  "dates": [
+    {
+      "original_value": "Jan 15 2024",
+      "normalized_value": "2024-01",
+      "is_normalized": true,
+      "metadata": {
+        "normalizer": "date",
+        "method": "dateutil_to_year_month",
+        "steps": ["converted to YYYY-MM"],
+        "warnings": []
+      }
+    },
+    {
+      "original_value": "Present",
+      "normalized_value": "Present",
+      "is_normalized": false,
+      "metadata": {
+        "normalizer": "date",
+        "method": "dateutil_to_year_month",
+        "steps": [],
+        "warnings": ["Open-ended date marker preserved for later business logic."]
+      }
+    }
+  ],
+  "skills": [
+    {
+      "original_value": " py ",
+      "normalized_value": "Python",
+      "is_normalized": true,
+      "metadata": {
+        "normalizer": "skills",
+        "method": "alias_map",
+        "steps": ["trimmed whitespace", "mapped alias 'py' to canonical skill 'Python'"],
+        "warnings": []
+      }
+    }
+  ],
+  "location": [
+    {
+      "original_value": " Bengaluru, Karnataka, India ",
+      "normalized_value": {
+        "city": "Bengaluru",
+        "region": "KA",
+        "country": "IN"
+      },
+      "is_normalized": true,
+      "metadata": {
+        "normalizer": "location",
+        "method": "comma_separated_structuring",
+        "steps": [
+          "trimmed whitespace",
+          "mapped region 'Karnataka' to code 'KA'",
+          "mapped country 'India' to ISO code 'IN'"
+        ],
+        "warnings": []
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,49 @@
+[
+  {
+    "source": "recruiter_csv",
+    "source_priority": 80,
+    "metadata": {
+      "file_name": "module_02_recruiter.csv",
+      "row_number": 2,
+      "columns": ["full_name", "email", "phone", "skills"]
+    },
+    "fields": {
+      "full_name": "Ada Lovelace",
+      "email": " ADA@EXAMPLE.COM ",
+      "phone": " 555 0100 ",
+      "skills": " Python; SQL"
+    },
+    "parsing_errors": [],
+    "confidence": 0.85
+  },
+  {
+    "source": "ats_json",
+    "source_priority": 100,
+    "metadata": {
+      "file_name": "module_02_ats.json",
+      "record_index": 0
+    },
+    "fields": {
+      "full_name": "Ada Lovelace",
+      "email": " ADA@EXAMPLE.COM ",
+      "phone": "555 0100",
+      "skills": ["Python", "SQL"]
+    },
+    "parsing_errors": [],
+    "confidence": 0.95
+  },
+  {
+    "source": "recruiter_notes",
+    "source_priority": 40,
+    "metadata": {
+      "file_name": "module_02_notes.txt",
+      "content_type": "text/plain"
+    },
+    "fields": {
+      "raw_text": "Met candidate after screening call. Email mentioned as ADA@EXAMPLE.COM and phone as 555 0100.\n"
+    },
+    "parsing_errors": [],
+    "confidence": 0.7
+  }
+]
+

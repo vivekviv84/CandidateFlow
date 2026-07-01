@@ -1,0 +1,4 @@
+Name: Ada Lovelace
+Skills: Python, SQL
+Experience: Engineer at Analytical Engines Ltd (2020-01 - Present)
+Education: BSc Mathematics from University of London (2024)

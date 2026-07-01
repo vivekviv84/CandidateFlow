@@ -1,0 +1,15 @@
+{
+  "source": "ats_json",
+  "metadata": {
+    "file_name": "ats_candidate.json",
+    "record_id": "ats-123"
+  },
+  "fields": {
+    "full_name": "Ada Lovelace",
+    "emails": ["ADA@EXAMPLE.COM"],
+    "skills": ["Python", "Data Modeling"]
+  },
+  "parsing_errors": [],
+  "confidence": 0.95
+}
+

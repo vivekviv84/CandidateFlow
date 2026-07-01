@@ -1,0 +1,36 @@
+{
+  "candidate_id": "cand-001",
+  "full_name": "Ada Lovelace",
+  "emails": ["ada@example.com"],
+  "phones": [],
+  "location": null,
+  "links": {},
+  "headline": "Analytical Engineer",
+  "years_experience": 4.5,
+  "skills": [
+    {
+      "name": "Python",
+      "canonical_name": "python",
+      "confidence": 0.94,
+      "sources": ["ats_json", "resume"]
+    }
+  ],
+  "experience": [],
+  "education": [],
+  "provenance": [
+    {
+      "field": "full_name",
+      "selected_value": "Ada Lovelace",
+      "source": "ats_json",
+      "method": "highest_confidence",
+      "reason": "ATS value had the highest confidence and highest source priority.",
+      "confidence": 0.95,
+      "timestamp": "2026-01-01T00:00:00Z",
+      "discarded_values": [],
+      "normalized_from": null
+    }
+  ],
+  "overall_confidence": 0.9,
+  "validation_errors": []
+}
+

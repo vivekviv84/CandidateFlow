@@ -1,0 +1,9 @@
+{
+  "source": "resume",
+  "fields": {
+    "raw_text": "Ada Lovelace\nEmail: ADA@EXAMPLE.COM\nPhone: +1 (415) 555-2671\nSkills: Python, SQL; Data Modeling\nExperience: Senior Engineer at Analytical Engines Ltd (Jan 2020 - Present)\nEducation: BSc Mathematics from University of London (1842)"
+  },
+  "parsing_errors": [],
+  "confidence": 0.8
+}
+

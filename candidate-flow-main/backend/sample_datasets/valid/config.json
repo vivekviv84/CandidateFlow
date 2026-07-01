@@ -1,0 +1,6 @@
+{
+  "selected_fields": ["candidate_id", "full_name", "emails", "skills", "overall_confidence"],
+  "include_provenance": true,
+  "include_confidence": true,
+  "on_missing": "null"
+}

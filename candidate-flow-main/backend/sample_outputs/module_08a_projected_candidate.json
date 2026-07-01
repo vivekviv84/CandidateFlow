@@ -1,0 +1,8 @@
+﻿{
+  "id": "cand-001",
+  "profile": {
+    "name": "Ada Lovelace",
+    "primary_email": "ada@example.com",
+    "github": "https://github.com/ada"
+  }
+}

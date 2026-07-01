@@ -1,0 +1,30 @@
+{
+  "candidate": {
+    "candidate_id": "cand-001",
+    "full_name": "Ada Lovelace",
+    "emails": ["ada@example.com", "work@example.com"],
+    "skills": [
+      {
+        "name": "Python",
+        "canonical_name": "Python",
+        "confidence": 0.95,
+        "sources": ["ats_json", "resume"]
+      }
+    ]
+  },
+  "report": {
+    "fragments_seen": 2,
+    "fields_resolved": ["candidate_id", "full_name", "emails", "skills"],
+    "warnings": [],
+    "decisions": [
+      {
+        "field": "full_name",
+        "selected_value": "Ada Lovelace",
+        "selected_source": "ats_json",
+        "strategy": "highest_confidence_then_source_priority_then_timestamp_then_stable_value",
+        "reason": "Selected the highest-ranked scalar value deterministically."
+      }
+    ]
+  }
+}
+

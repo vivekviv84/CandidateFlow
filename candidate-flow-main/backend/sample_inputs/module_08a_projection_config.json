@@ -1,0 +1,14 @@
+﻿{
+  "selected_fields": ["candidate_id", "full_name", "emails.0", "links.github"],
+  "rename_fields": {
+    "candidate_id": "id",
+    "full_name": "profile.name"
+  },
+  "field_mappings": {
+    "profile.primary_email": "emails.0",
+    "profile.github": "links.github"
+  },
+  "include_confidence": false,
+  "include_provenance": false,
+  "on_missing": "omit"
+}

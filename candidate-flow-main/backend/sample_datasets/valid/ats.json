@@ -1,0 +1,8 @@
+{
+  "candidate_id": "cand-valid-001",
+  "full_name": "Ada Love",
+  "email": "ada@example.com",
+  "phone": "+14155552671",
+  "skills": ["Python", "SQL"],
+  "links": {"github": "https://github.com/ada"}
+}

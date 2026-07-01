@@ -1,0 +1,16 @@
+[project]
+name = "candidate-flow"
+version = "0.1.0"
+description = "Explainable multi-source candidate data transformation engine"
+requires-python = ">=3.12"
+
+[project.scripts]
+candidate-flow = "main:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["app"]
+py-modules = ["main"]

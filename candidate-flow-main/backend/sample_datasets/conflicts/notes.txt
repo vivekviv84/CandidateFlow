@@ -1,0 +1,3 @@
+Candidate: Ada Byron
+Email: ada_notes@example.com
+Skills: Python, Data Modeling

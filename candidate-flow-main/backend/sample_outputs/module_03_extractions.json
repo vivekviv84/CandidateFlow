@@ -1,0 +1,51 @@
+[
+  {
+    "field_name": "emails",
+    "values": ["ADA@EXAMPLE.COM"],
+    "metadata": {
+      "extractor": "email",
+      "source": "resume",
+      "method": "regex_email_pattern",
+      "confidence": 0.9,
+      "evidence": ["Ada Lovelace\nEmail: ADA@EXAMPLE.COM\nPhone: +1 (415) 555-2671\nSkills: Python, SQL; Data Modeling\nExperience: Senior Engineer at Analytical Engines Ltd (Jan 2020 - Present)\nEducation: BSc Mathematics from University of London (1842)"],
+      "warnings": []
+    }
+  },
+  {
+    "field_name": "phones",
+    "values": ["+1 (415) 555-2671"],
+    "metadata": {
+      "extractor": "phone",
+      "source": "resume",
+      "method": "regex_phone_pattern",
+      "confidence": 0.82,
+      "evidence": ["Ada Lovelace\nEmail: ADA@EXAMPLE.COM\nPhone: +1 (415) 555-2671\nSkills: Python, SQL; Data Modeling\nExperience: Senior Engineer at Analytical Engines Ltd (Jan 2020 - Present)\nEducation: BSc Mathematics from University of London (1842)"],
+      "warnings": []
+    }
+  },
+  {
+    "field_name": "skills",
+    "values": ["Python", "SQL", "Data Modeling"],
+    "metadata": {
+      "extractor": "skills",
+      "source": "resume",
+      "method": "explicit_skill_fields_and_sections",
+      "confidence": 0.78,
+      "evidence": ["Skills: Python, SQL; Data Modeling"],
+      "warnings": []
+    }
+  },
+  {
+    "field_name": "full_name",
+    "values": ["Ada Lovelace"],
+    "metadata": {
+      "extractor": "name",
+      "source": "resume",
+      "method": "first_non_empty_text_line",
+      "confidence": 0.55,
+      "evidence": ["Ada Lovelace"],
+      "warnings": []
+    }
+  }
+]
+

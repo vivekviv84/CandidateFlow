@@ -1,0 +1,17 @@
+{
+  "candidate_id": "",
+  "full_name": "Ada Lovelace",
+  "emails": [" ADA@EXAMPLE.COM ", "ada@example.com"],
+  "phones": ["555 0100", "123"],
+  "links": {
+    "linkedin": "linkedin.com/in/ada",
+    "github": "https://github.com/ada"
+  },
+  "skills": ["Python"],
+  "experience": [],
+  "education": [],
+  "provenance": [],
+  "overall_confidence": 1.4,
+  "validation_errors": []
+}
+

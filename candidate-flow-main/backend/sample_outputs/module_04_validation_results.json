@@ -1,0 +1,38 @@
+[
+  {
+    "is_valid": false,
+    "severity": "error",
+    "message": "Required field 'candidate_id' is missing or blank.",
+    "field": "candidate.candidate_id",
+    "suggested_action": "Keep partial output but flag the candidate for identity review."
+  },
+  {
+    "is_valid": false,
+    "severity": "warning",
+    "message": "Email contains leading or trailing whitespace.",
+    "field": "emails[0]",
+    "suggested_action": "Send the value to the email normalizer."
+  },
+  {
+    "is_valid": false,
+    "severity": "error",
+    "message": "Phone value has fewer than 7 digits.",
+    "field": "phones[1]",
+    "suggested_action": "Keep the value for review; do not include it as a trusted phone number."
+  },
+  {
+    "is_valid": false,
+    "severity": "error",
+    "message": "URL scheme must be http or https.",
+    "field": "links.linkedin",
+    "suggested_action": "Send the value to URL normalization or manual review."
+  },
+  {
+    "is_valid": false,
+    "severity": "error",
+    "message": "overall_confidence must be between 0.0 and 1.0.",
+    "field": "candidate.overall_confidence",
+    "suggested_action": "Recalculate confidence before projection."
+  }
+]
+
